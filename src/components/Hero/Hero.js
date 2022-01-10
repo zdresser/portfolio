@@ -5,9 +5,7 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
-import Link from "next/link";
 
 const Hero = (props) => (
   <>
@@ -21,10 +19,6 @@ const Hero = (props) => (
         <SectionText>
           I am a junior web developer working primarily in the MERN stack.
         </SectionText>
-
-        <Link href='/contact'>
-          <Button>Contact me!</Button>
-        </Link>
       </LeftSection>
     </Section>
   </>
