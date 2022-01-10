@@ -1,51 +1,57 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiMongodb } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
-  <Section id="tech">
+const Technologies = () => (
+  <Section id='tech'>
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
-    </SectionText>
+
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiReact size='3rem' />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiece with <br />
-            React.js
-          </ListParagraph>
+          <ListParagraph>React</ListParagraph>
+          <ListParagraph>Redux</ListParagraph>
+          <ListParagraph>Jest</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiMongodb size='3rem' />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
+          <ListParagraph>Node</ListParagraph>
+          <ListParagraph>Express</ListParagraph>
+          <ListParagraph>MongoDB</ListParagraph>
+          <ListParagraph>PostgresSQL</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <SiTypescript size='2.5rem' />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
+          <ListTitle>Misc.</ListTitle>
+          <ListParagraph>Typescript</ListParagraph>
+          <ListParagraph>React Native</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
