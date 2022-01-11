@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/catchup-group2-xs.png",
     tags: ["Mongo", "Express", "React Native", "Expo", "Node"],
     code: "https://github.com/zdresser/catch-up",
-
+    visit: "https://www.youtube.com/watch?v=JXGzPHpz0Wg",
     id: 0,
     mobile: true,
   },
