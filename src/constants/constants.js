@@ -4,7 +4,7 @@ export const projects = [
     description:
       "A mobile app providing improved group chat for busy people with segmented discussions and limited notifications.",
     image: "/images/catchup-group2-xs.png",
-    tags: ["Mongo", "Express", "React Native", "Expo", "Node"],
+    tags: ["Mongo", "Express", "React Native", "Node"],
     code: "https://github.com/zdresser/catch-up",
     visit: "https://www.youtube.com/watch?v=JXGzPHpz0Wg",
     id: 0,
