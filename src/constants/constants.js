@@ -29,6 +29,7 @@ export const TimeLineData = [
   { year: 2013, text: "PhD in History from Rice University" },
   {
     year: 2021,
-    text: "Completed the Parsity full-stack bootcamp to launch my career in web development",
+    text: "Completed the Parsity full-stack bootcamp",
   },
+  { year: 2022, text: "Began career as web developer" },
 ];

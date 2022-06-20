@@ -17,7 +17,7 @@ const Hero = (props) => (
           Full-Stack Web Developer
         </SectionTitle>
         <SectionText>
-          I am a junior web developer working primarily in the MERN stack.
+          I am a web developer working primarily in the MERN stack.
         </SectionText>
       </LeftSection>
     </Section>
