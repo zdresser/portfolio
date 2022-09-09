@@ -47,7 +47,7 @@ const Projects = () => (
             <UtilityList>
               <ExternalLinks href={p.code}>Code</ExternalLinks>
               {p.visit ? (
-                <ExternalLinks href={p.source}>Visit</ExternalLinks>
+                <ExternalLinks href={p.visit}>Visit</ExternalLinks>
               ) : null}
             </UtilityList>
           </BlogCard>
